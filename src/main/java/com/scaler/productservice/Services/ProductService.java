@@ -1,9 +1,10 @@
 package com.scaler.productservice.Services;
 
+import com.scaler.productservice.Module.Product;
 import org.springframework.stereotype.Service;
 
 @Service
 public interface ProductService {
 
-    public void getProducts(long id);
+    public Product getProducts(long id);
 }
